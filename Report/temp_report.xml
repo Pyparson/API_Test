@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite errors="0" failures="0" name="Projects.Capella.Cases.TestScenario.TestScenario-20180712030849" skipped="0" tests="5" time="1.616" timestamp="2018-07-12T03:08:50">
+		<testcase classname="Projects.Capella.Cases.TestScenario.TestScenario" name="test_get_device_attributes_scenario" time="0.300" timestamp="2018-07-12T03:08:49"/>
+		<testcase classname="Projects.Capella.Cases.TestScenario.TestScenario" name="test_rpc_data_upload" time="0.194" timestamp="2018-07-12T03:08:49"/>
+		<testcase classname="Projects.Capella.Cases.TestScenario.TestScenario" name="test_subscribe_to_attributes_scenario" time="0.603" timestamp="2018-07-12T03:08:50"/>
+		<testcase classname="Projects.Capella.Cases.TestScenario.TestScenario" name="test_subscribe_to_server_rpc_commands" time="0.337" timestamp="2018-07-12T03:08:50"/>
+		<testcase classname="Projects.Capella.Cases.TestScenario.TestScenario" name="test_update_device_client_attributes" time="0.182" timestamp="2018-07-12T03:08:50"/>
+		<system-out>
+<![CDATA[该设备已存在，无需再创建
+http://szx1-capella-all-test-000:8081/api/device/db4972c0-810a-11e8-914c-232c383303f5/credentials
+tI8OS8i8VNYw4aCZIR8M
+{"auto_test_client_attribute_update_key":"74","test_post_device_attribute_sample_key":"test_post_device_attribute_sample_value","auto_key_for_shared_side":"16"}
+该设备已存在，无需再创建
+http://szx1-capella-all-test-000:8081/api/device/db4972c0-810a-11e8-914c-232c383303f5/credentials
+200
+该设备已存在，无需再创建
+http://szx1-capella-all-test-000:8081/api/device/db4972c0-810a-11e8-914c-232c383303f5/credentials
+PPP: auto_scenario_test_create_device auto_key_for_shared_side 48 <function set_device_sharing_attribute at 0x108e6e730>
+该设备已存在，无需再创建
+http://szx1-capella-all-test-000:8081/api/device/db4972c0-810a-11e8-914c-232c383303f5/credentials
+PPP: auto_scenario_test_create_device {'method': 'setValue', 'params': True, 'timeout': 2000} <function set_device_control_attribute at 0x108e6e7b8>
+{"id":116,"method":"setValue","params":true}
+该设备已存在，无需再创建
+http://szx1-capella-all-test-000:8081/api/device/db4972c0-810a-11e8-914c-232c383303f5/credentials
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testsuite>
+</testsuites>

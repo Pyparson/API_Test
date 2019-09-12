@@ -1,0 +1,13 @@
+OSPlatform: Windowsgi
+project: Demo
+logLevel: info
+autoSendReport: False
+emailServer: {
+              sender: XXXX,
+              receivers: [XXXXX, XXXX],
+              subject: 'Warning!!!Something is wrong with the server：',
+              smtp_server: smtp.exmail.qq.com,
+              username: XXXX,
+              password: XXXX
+              }
+              
